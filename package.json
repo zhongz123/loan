@@ -2,6 +2,7 @@
   "name": "uni-preset-vue",
   "version": "0.0.0",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
     "dev:custom": "uni -p",
     "dev:h5": "uni",
@@ -51,6 +52,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-4030620241128001",
     "@dcloudio/uni-mp-xhs": "3.0.0-4030620241128001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-4030620241128001",
+    "dayjs": "^1.11.19",
     "sass-loader": "^10.1.1",
     "vue": "^3.4.21",
     "vue-i18n": "^9.1.9"
